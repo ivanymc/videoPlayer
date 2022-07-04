@@ -1,0 +1,1998 @@
+1
+00:00:02.112 --> 00:00:04.992
+So like many great things in life,
+
+2
+00:00:06.266 --> 00:00:09.403
+this project also starts with a cube.
+
+3
+00:00:09.428 --> 00:00:14.840
+Just because I'm an old-fashioned person.
+
+4
+00:00:14.840 --> 00:00:19.240
+I started using Blender when there was no Sculpting,
+
+5
+00:00:19.240 --> 00:00:22.841
+there was only Box and Poly by Poly Modeling.
+
+6
+00:00:22.866 --> 00:00:26.753
+What you see me doing here was essentially just adding
+
+7
+00:00:27.479 --> 00:00:33.145
+Mirror and a Subsurf Modifier, and I got a little bit used
+
+8
+00:00:34.224 --> 00:00:39.000
+to the Pie Menu editor. Ian was raving about it in the Studio,
+
+9
+00:00:39.000 --> 00:00:41.720
+I thought, maybe I'll try
+
+10
+00:00:41.720 --> 00:00:44.720
+to integrate it into my workflow. So what you saw there was
+
+11
+00:00:44.720 --> 00:00:47.694
+merely just a Pie Menu I made,
+
+12
+00:00:47.719 --> 00:00:52.152
+to make it easier for me to add a Mirror Modifier and a Subsurf Modifier,
+
+13
+00:00:52.177 --> 00:00:57.512
+and I hooked it up to the Q key and that was it.
+
+14
+00:00:57.537 --> 00:01:00.960
+Nothing really fancy and you don't have to use
+
+15
+00:01:00.960 --> 00:01:02.720
+these kind of Addons to make your workflow faster.
+
+16
+00:01:04.998 --> 00:01:08.491
+I just wanted to try and see how that works.
+
+17
+00:01:17.120 --> 00:01:20.918
+Now in the beginning, nothing fancy is happening.
+
+18
+00:01:20.943 --> 00:01:24.480
+A lot of the tools you see me using here are
+
+19
+00:01:24.480 --> 00:01:29.147
+fairly commonplace. I'm extruding, pressing down E,
+
+20
+00:01:29.172 --> 00:01:33.149
+I'm sliding Edge Loops by double pressing G,
+
+21
+00:01:33.174 --> 00:01:38.055
+every once in a while, I'm adding a new Edge Loop with Ctrl R.
+
+22
+00:01:38.080 --> 00:01:41.240
+Those keys might also vary on your configuration,
+
+23
+00:01:41.240 --> 00:01:45.120
+but that's essentially what I'm using currently to block out the shape.
+
+24
+00:01:45.120 --> 00:01:50.000
+I knew in the beginning that I just wanted
+
+25
+00:01:50.000 --> 00:01:54.637
+to start this rough with a boxy model
+
+26
+00:01:54.662 --> 00:02:01.000
+that can be easily extended. I really didn't have any clear idea
+
+27
+00:02:02.666 --> 00:02:07.132
+how in detail this fish is going to look like.
+
+28
+00:02:07.157 --> 00:02:10.542
+I had a lot of references from nature, and I knew
+
+29
+00:02:10.567 --> 00:02:16.240
+I wanted to follow them loosely, because,
+
+30
+00:02:16.240 --> 00:02:18.656
+nature's amazing and everything.
+
+31
+00:02:18.681 --> 00:02:24.120
+But for the composition of this image, I have to take
+
+32
+00:02:24.145 --> 00:02:28.908
+a lot of artistic license as well.
+
+33
+00:02:28.933 --> 00:02:33.274
+So I tried to be true to the overall feeling, the overall form
+
+34
+00:02:34.145 --> 00:02:38.095
+of this amazing creature, but then, like the details,
+
+35
+00:02:38.120 --> 00:02:39.240
+are totally made up.
+
+36
+00:02:46.071 --> 00:02:50.752
+Now, I'm trying to get the proportions right.
+
+37
+00:02:50.777 --> 00:02:55.061
+This is probably the most frustrating part.
+
+38
+00:02:55.086 --> 00:02:58.993
+Because you're not doing anything glamorous right now,
+
+39
+00:02:59.018 --> 00:03:03.396
+your model essentially looks like garbage.
+
+40
+00:03:03.748 --> 00:03:08.039
+You just have to have faith, that in the end,
+
+41
+00:03:08.064 --> 00:03:11.100
+you might be able to come up with something
+
+42
+00:03:11.125 --> 00:03:13.493
+that's interesting to look at.
+
+43
+00:03:15.120 --> 00:03:18.480
+I'm just making a copy of the general model here.
+
+44
+00:03:18.480 --> 00:03:23.913
+Because, next, I'll straight away dive into Sculpt Mode
+
+45
+00:03:23.938 --> 00:03:27.840
+with Dynamic Topology,
+
+46
+00:03:27.840 --> 00:03:31.810
+just draw this base mesh. I'm making a copy,
+
+47
+00:03:31.835 --> 00:03:36.240
+and name everything in the Outliner.
+
+48
+00:03:36.240 --> 00:03:39.652
+With that copied, I apply all the Modifiers,
+
+49
+00:03:39.677 --> 00:03:44.080
+then I'll use straight sculpting on the raw polygons.
+
+50
+00:03:49.277 --> 00:03:54.357
+I also switch to the new sculpting workspace,
+
+51
+00:03:54.382 --> 00:03:56.954
+which is really awesome to have
+
+52
+00:03:56.979 --> 00:04:02.598
+these kind of new more defined work spaces.
+
+53
+00:04:02.623 --> 00:04:08.398
+Because you could customize your workflow in Blender,
+
+54
+00:04:08.423 --> 00:04:12.558
+but it's also good to have a common starting ground,
+
+55
+00:04:13.190 --> 00:04:16.095
+especially when you're trying
+
+56
+00:04:16.120 --> 00:04:20.305
+to communicate ideas to other people, see how they use Blender.
+
+57
+00:04:20.330 --> 00:04:27.809
+So I'm just starting with the rough Sculpting Work Space.
+
+58
+00:04:27.834 --> 00:04:30.221
+And then, over the course of this project,
+
+59
+00:04:30.246 --> 00:04:32.600
+I tried to adjust to its workflow,
+
+60
+00:04:32.600 --> 00:04:36.120
+and also customize it, so it's not going to stay like that.
+
+61
+00:04:36.120 --> 00:04:40.720
+The Mattcap is also not going to stay,
+
+62
+00:04:40.720 --> 00:04:43.277
+and that's just part of the process for me.
+
+63
+00:04:52.413 --> 00:04:56.483
+So I'm alternating between Draw Brush
+
+64
+00:04:56.508 --> 00:05:01.480
+using Ctrl to pinch the model in, and the Clay Strip Brush.
+
+65
+00:05:01.480 --> 00:05:03.955
+Then every once in a while,
+
+66
+00:05:03.980 --> 00:05:09.427
+I'll use the Crease Brush to indicate some wrinkles.
+
+67
+00:05:09.452 --> 00:05:12.627
+But this process right now is still fairly loose.
+
+68
+00:05:12.652 --> 00:05:15.000
+Like I have a rough idea
+
+69
+00:05:15.000 --> 00:05:19.720
+of how this is going to turn out, but how to get there, I'm not really sure.
+
+70
+00:05:19.720 --> 00:05:23.319
+I'm also not really a sculpting artist.
+
+71
+00:05:23.988 --> 00:05:28.655
+So a lot of the practices you see me using here,
+
+72
+00:05:28.680 --> 00:05:32.045
+if you're a seasoned sculptor, you might laugh at me.
+
+73
+00:05:32.070 --> 00:05:36.720
+But this is just about me trying trying out
+
+74
+00:05:36.720 --> 00:05:41.480
+some shapes and some forms. Then hopefully,
+
+75
+00:05:41.480 --> 00:05:43.680
+I'll try to make this look into something
+
+76
+00:05:43.705 --> 00:05:46.600
+that's more presentable at the end.
+
+77
+00:06:05.362 --> 00:06:10.384
+So all very very rough blocking here. The detail and Dynamic Topology
+
+78
+00:06:10.409 --> 00:06:12.915
+is also not very big currently.
+
+79
+00:06:14.685 --> 00:06:18.433
+Sooner or later, we'll start
+
+80
+00:06:18.458 --> 00:06:23.209
+to retopologize this mesh.
+
+81
+00:06:23.234 --> 00:06:26.441
+So it's not going to matter anyway.
+
+82
+00:06:26.466 --> 00:06:31.971
+For me, now, it's just about blocking out the big overall shapes.
+
+83
+00:06:31.996 --> 00:06:35.930
+Then later when we retopologize, we have a clean topology,
+
+84
+00:06:35.955 --> 00:06:40.705
+we'll use the Multiresolution Modifier,
+
+85
+00:06:40.730 --> 00:06:44.646
+and then actually worry about all the details,
+
+86
+00:06:44.671 --> 00:06:50.960
+all the skin creases, all the scales and fins.
+
+87
+00:07:29.690 --> 00:07:33.080
+So I'm adding a lot of material at once here,
+
+88
+00:07:34.270 --> 00:07:37.720
+very generous with the Clay Strips Brush.
+
+89
+00:07:38.695 --> 00:07:43.094
+I wanted to get the right feeling for the mouth of this fish,
+
+90
+00:07:43.119 --> 00:07:49.799
+mostly 80 to 70% mouth,
+
+91
+00:07:49.824 --> 00:07:53.611
+and I added that little bit of crease there on the lip,
+
+92
+00:07:53.636 --> 00:07:55.448
+like right there in the middle,
+
+93
+00:07:55.473 --> 00:08:01.898
+which makes it more like a carp. Later, you see me removing that.
+
+94
+00:08:01.923 --> 00:08:04.480
+It was really important for me
+
+95
+00:08:04.480 --> 00:08:08.080
+to get the mouth correctly.
+
+96
+00:08:09.120 --> 00:08:14.542
+At least, believable, for this kind of character.
+
+97
+00:08:14.814 --> 00:08:21.480
+Another important thing is also the ratio versus eyes and face.
+
+98
+00:08:21.505 --> 00:08:23.865
+So how big are the eyes going to be?
+
+99
+00:08:24.812 --> 00:08:29.391
+This fish has been popularized quite a bit with Finding Nemo.
+
+100
+00:08:29.416 --> 00:08:33.240
+In that film,
+
+101
+00:08:33.240 --> 00:08:35.510
+it's probably a she because
+
+102
+00:08:35.535 --> 00:08:38.080
+females are bigger than the males.
+
+103
+00:08:38.819 --> 00:08:43.832
+So the eyes in that film were just huge.
+
+104
+00:08:43.857 --> 00:08:47.608
+I wanted to get something a little bit more,
+
+105
+00:08:47.633 --> 00:08:51.554
+like scary on a different level, not alien scary,
+
+106
+00:08:51.579 --> 00:08:55.131
+but make the eyes small,
+
+107
+00:08:55.156 --> 00:08:59.290
+make it more like a primal thing,
+
+108
+00:08:59.326 --> 00:09:04.428
+not like it could be an intelligent things.
+
+109
+00:09:05.840 --> 00:09:10.360
+That huge blob there in the front aren't
+
+110
+00:09:10.360 --> 00:09:12.935
+really supposed to be the eyes.
+
+111
+00:09:12.960 --> 00:09:19.533
+That's more the eye socket.
+
+112
+00:09:19.558 --> 00:09:22.960
+The iris probably going to be this little dot there.
+
+113
+00:09:31.064 --> 00:09:36.000
+Now I am just lowering the details size.
+
+114
+00:09:37.095 --> 00:09:38.921
+It's not adding about detail,
+
+115
+00:09:38.946 --> 00:09:43.820
+but I get a bit fed Up with all the polygons here.
+
+116
+00:09:43.845 --> 00:09:48.080
+If you just block out stuff,
+
+117
+00:09:48.080 --> 00:09:50.935
+you shouldn't worry about seeing polygons, and that kind of stuff,
+
+118
+00:09:50.960 --> 00:09:54.080
+because it's about the overall shape.
+
+119
+00:09:54.080 --> 00:10:00.240
+Like said, maybe I also went too quickly
+
+120
+00:10:00.240 --> 00:10:04.402
+into more detail here. But sometimes I think you need
+
+121
+00:10:04.427 --> 00:10:06.840
+that kind of inspiration when you're working on something,
+
+122
+00:10:06.840 --> 00:10:11.120
+especially with this project. I mean,
+
+123
+00:10:11.120 --> 00:10:12.993
+it's supposed to be more of a fun thing.
+
+124
+00:10:13.018 --> 00:10:20.360
+Because I spent more than a year on the Spring open movie currently,
+
+125
+00:10:20.360 --> 00:10:23.620
+I was just doing one thing, which is lighting,
+
+126
+00:10:23.645 --> 00:10:27.974
+and then managing other people. That's fun,
+
+127
+00:10:27.999 --> 00:10:32.080
+but I was also missing the immediacy of something like this,
+
+128
+00:10:32.080 --> 00:10:35.000
+where you just go in and then just bash something out
+
+129
+00:10:35.000 --> 00:10:36.080
+in a matter of days.
+
+130
+00:10:45.414 --> 00:10:48.738
+So here, I am with the Crease brush.
+
+131
+00:10:48.763 --> 00:10:50.631
+That way,
+
+132
+00:10:52.026 --> 00:10:58.364
+I can define the overall flow of the body shape,
+
+133
+00:11:00.257 --> 00:11:06.459
+because those creases add some dynamics to the body.
+
+134
+00:11:06.484 --> 00:11:11.400
+Of course, they should also not be too unbelievable.
+
+135
+00:11:11.425 --> 00:11:15.240
+They should follow the overall skin texture,
+
+136
+00:11:15.240 --> 00:11:20.789
+the overall skin alignment, so it's not too much out of place.
+
+137
+00:11:21.355 --> 00:11:25.418
+This whole project is about lines,
+
+138
+00:11:35.657 --> 00:11:39.500
+and it's about dynamic flow of lines.
+
+139
+00:11:40.668 --> 00:11:43.398
+And that was really important,
+
+140
+00:11:43.423 --> 00:11:45.989
+while I was coming up with this character.
+
+141
+00:12:01.361 --> 00:12:06.000
+A big part of this was also, for me, some restrain,
+
+142
+00:12:06.025 --> 00:12:09.480
+because as said, I'm not a seasoned sculptor.
+
+143
+00:12:11.095 --> 00:12:13.975
+People like Julian here in the Studio,
+
+144
+00:12:14.000 --> 00:12:15.954
+they sculpt almost every day and they have their workflow,
+
+145
+00:12:15.979 --> 00:12:19.877
+and they're accustomed to everything.
+
+146
+00:12:25.072 --> 00:12:28.530
+I'm a total noob at this.
+
+147
+00:12:29.403 --> 00:12:33.480
+For someone like me, it's very easy to get carried away
+
+148
+00:12:33.480 --> 00:12:37.441
+with too much detail. And also it's very easy
+
+149
+00:12:37.466 --> 00:12:44.992
+to introduce unbelievable shapes into my models.
+
+150
+00:12:46.120 --> 00:12:49.720
+You might get carried away with the Blob Brush.
+
+151
+00:12:49.720 --> 00:12:52.480
+This makes a little nice blobby thing here
+
+152
+00:12:52.480 --> 00:12:54.311
+let's try more of that.
+
+153
+00:12:54.336 --> 00:12:57.120
+At the end of the day, you notice that
+
+154
+00:12:57.120 --> 00:13:01.480
+looks like a potato. Whereas someone
+
+155
+00:13:01.480 --> 00:13:03.401
+who's used to a workflow like this,
+
+156
+00:13:03.426 --> 00:13:05.720
+they do everything with purpose, of course.
+
+157
+00:13:07.080 --> 00:13:12.032
+So a big part of this, for me, at this point of the project,
+
+158
+00:13:12.057 --> 00:13:14.186
+is trying to hold myself back,
+
+159
+00:13:14.211 --> 00:13:19.050
+not going all the way with wrinkle detail.
+
+160
+00:13:19.075 --> 00:13:25.354
+I'm just trying to make it organic and believable, and hopefully
+
+161
+00:13:25.379 --> 00:13:30.048
+I'll end up with something that looks aesthetically pleasing to me also.
+
+162
+00:14:19.000 --> 00:14:23.683
+I'm adding more wrinkle detail in currently.
+
+163
+00:14:23.708 --> 00:14:29.361
+That's because I'm trying to find the topology of the skin.
+
+164
+00:14:29.386 --> 00:14:32.611
+Also I knew,
+
+165
+00:14:33.465 --> 00:14:36.761
+if you check out nature documentary footage,
+
+166
+00:14:36.786 --> 00:14:41.702
+these types of fish have lots of these tendrils on their bodies.
+
+167
+00:14:41.727 --> 00:14:45.091
+So I wanted to make sure
+
+168
+00:14:46.000 --> 00:14:50.360
+that they sit on the skin correctly.
+
+169
+00:14:50.360 --> 00:14:55.480
+I'm indicating, at this point, a lot of blobs.
+
+170
+00:14:55.480 --> 00:15:00.377
+Later, I hope
+
+171
+00:15:00.402 --> 00:15:04.317
+I can add some of these tendrils to those blobs.
+
+172
+00:15:04.342 --> 00:15:10.893
+So there's a nice flow and continuation.
+
+173
+00:15:30.787 --> 00:15:35.360
+It's also really interesting how saggy their skin is.
+
+174
+00:15:35.360 --> 00:15:40.240
+It's not so much, if you look at reference footage,
+
+175
+00:15:40.240 --> 00:15:44.240
+it's not so much scaly. Actually,
+
+176
+00:15:44.240 --> 00:15:50.000
+it's more like a saggy lump of of cloth that's floating around in the water.
+
+177
+00:15:50.000 --> 00:15:51.480
+It's super fascinating.
+
+178
+00:15:52.397 --> 00:15:56.388
+It seems almost like, especially at skeletons,
+
+179
+00:15:56.413 --> 00:16:00.360
+the skin is just hanging loosely on their skeletons.
+
+180
+00:16:00.360 --> 00:16:03.840
+That's what I wanted to try and sell here.
+
+181
+00:16:04.686 --> 00:16:09.242
+Also, those humps in the back is where the fins are going to extend.
+
+182
+00:16:09.267 --> 00:16:16.722
+Later, I'm going to add curves to control those fins directly.
+
+183
+00:16:16.747 --> 00:16:19.387
+Because doing that kind of detail in Sculpting
+
+184
+00:16:19.412 --> 00:16:21.473
+is a little bit finicky.
+
+185
+00:16:21.498 --> 00:16:23.960
+In the end, it ends up looking not pleasant.
+
+186
+00:16:25.080 --> 00:16:28.000
+So that's what
+
+187
+00:16:28.955 --> 00:16:30.542
+I'm trying to achieve here.
+
+188
+00:16:36.610 --> 00:16:40.350
+Here, adding a cone for the teeth.
+
+189
+00:16:40.375 --> 00:16:42.600
+The teeth are fairly simple.
+
+190
+00:16:44.120 --> 00:16:46.334
+I don't know why I added more detail to them.
+
+191
+00:16:46.359 --> 00:16:50.342
+I could have just broken up a few to make it a bit more gnarly.
+
+192
+00:16:50.367 --> 00:16:54.335
+But what I started out with, was a subdivided cone,
+
+193
+00:16:54.360 --> 00:17:01.351
+and I Link Duplicated that cone
+
+194
+00:17:01.376 --> 00:17:04.975
+all across the face
+
+195
+00:17:05.000 --> 00:17:09.720
+to add teeth everywhere. The only variation in those teeth
+
+196
+00:17:09.720 --> 00:17:14.100
+comes from scaling them on various axis.
+
+197
+00:17:14.125 --> 00:17:19.480
+So I often just scale around local X axis,
+
+198
+00:17:19.480 --> 00:17:22.960
+or the local Z axis, to misalign them.
+
+199
+00:17:24.000 --> 00:17:28.480
+Here, I'm adding a single Mirror Modifier after the Subsurf to each tooth.
+
+200
+00:17:28.480 --> 00:17:35.000
+I'm using the base body mesh
+
+201
+00:17:35.000 --> 00:17:39.240
+as the mirror center object. That way,
+
+202
+00:17:39.240 --> 00:17:44.176
+I can really quickly block out the shapes, by all duplicating the teeth all over.
+
+203
+00:17:44.201 --> 00:17:47.562
+And using Snapping to the faces
+
+204
+00:17:47.587 --> 00:17:52.253
+and aligning my object to the underlying snap faces,
+
+205
+00:17:52.289 --> 00:17:55.851
+I can really quickly block out the teeth.
+
+206
+00:18:24.011 --> 00:18:29.221
+Again, currently, this is also an exercise of restrain for me,
+
+207
+00:18:30.445 --> 00:18:35.606
+because this creature lends itself to adding teeth everywhere.
+
+208
+00:18:35.631 --> 00:18:37.720
+You could go completely crazy
+
+209
+00:18:37.720 --> 00:18:40.240
+and make this as freaky as possible.
+
+210
+00:18:41.319 --> 00:18:45.401
+Then again, I've done that in the past with other projects.
+
+211
+00:18:45.426 --> 00:18:46.720
+With Creature Factory,
+
+212
+00:18:46.720 --> 00:18:47.480
+there's teeth everywhere.
+
+213
+00:18:48.450 --> 00:18:52.144
+That gets a little bit like a cliche for me.
+
+214
+00:18:52.169 --> 00:18:57.439
+So keep it as restrained as possible
+
+215
+00:18:57.464 --> 00:19:00.550
+and keep a logical alignment to the teeth, and not make them
+
+216
+00:19:00.575 --> 00:19:04.000
+too crooked and too unrealistic.
+
+217
+00:19:04.845 --> 00:19:07.579
+Of course, you're screaming at the screen right now,
+
+218
+00:19:07.604 --> 00:19:11.000
+this is really unrealistic.
+
+219
+00:19:12.227 --> 00:19:16.643
+Next time, I'll try to exercise more restrain.
+
+220
+00:19:16.668 --> 00:19:22.652
+Hopefully I'll get something more believable done.
+
+221
+00:19:22.677 --> 00:19:24.502
+I'll keep my fingers crossed.
+
+222
+00:19:39.718 --> 00:19:44.621
+Next, the curves I talked about. So I'm adding
+
+223
+00:19:44.646 --> 00:19:48.087
+a novel Bezier Curve, and I'm adding some depth to it,
+
+224
+00:19:48.112 --> 00:19:52.868
+to give it some Extrusion. Then, I can shrink the tips down.
+
+225
+00:19:52.893 --> 00:19:57.240
+That way, I can subdivide them
+
+226
+00:19:57.240 --> 00:19:59.120
+and the shrinkage will propagate through the subdivisions.
+
+227
+00:20:00.360 --> 00:20:06.037
+So I'm just shrinkening it, and fattening it,
+
+228
+00:20:06.062 --> 00:20:08.482
+and then
+
+229
+00:20:08.507 --> 00:20:17.840
+duplicating the curves all over.  Those curves are both going to be
+
+230
+00:20:17.840 --> 00:20:19.840
+these long tenderly appendages,
+
+231
+00:20:21.823 --> 00:20:26.896
+but also serve as the basis for the fins,
+
+232
+00:20:26.921 --> 00:20:31.025
+also on the back and on the tail end on the sides.
+
+233
+00:20:31.050 --> 00:20:32.556
+And later, the idea was that,
+
+234
+00:20:33.240 --> 00:20:39.300
+those curves are going to be integrated into my mesh.
+
+235
+00:20:39.325 --> 00:20:41.480
+I'll keep the curves around,
+
+236
+00:20:41.480 --> 00:20:44.080
+later to make Retopology easier.
+
+237
+00:20:45.674 --> 00:20:50.960
+But then later, I'll rig those and will pose them
+
+238
+00:20:50.960 --> 00:20:54.675
+in an interesting way, which hopefully fits
+
+239
+00:20:54.700 --> 00:20:59.069
+with the overall dynamic sense in this image.
+
+240
+00:21:01.591 --> 00:21:03.870
+That sounds very artistic, I'm sorry.
+
+241
+00:21:14.331 --> 00:21:16.106
+There're also scale.
+
+242
+00:21:17.010 --> 00:21:25.735
+They had some points being moved on the X axis.
+
+243
+00:21:25.760 --> 00:21:29.794
+I just had to quickly scale them on the X axis down to 0,
+
+244
+00:21:29.819 --> 00:21:34.104
+to make everything aligned on the mirror plane.
+
+245
+00:21:34.151 --> 00:21:37.009
+Because that's important,
+
+246
+00:21:37.034 --> 00:21:39.776
+since later, on Retopology,
+
+247
+00:21:39.801 --> 00:21:42.840
+we're going to to retopologize one side.
+
+248
+00:21:44.259 --> 00:21:47.901
+I'm struggling a little bit with the reefs apology
+
+249
+00:21:47.926 --> 00:21:49.999
+along the mirror axis, but
+
+250
+00:21:50.024 --> 00:21:52.720
+that's just part of the deal for now.
+
+251
+00:21:56.399 --> 00:21:59.463
+The tail fin is going
+
+252
+00:21:59.488 --> 00:22:01.720
+to have a little bit thicker lines,
+
+253
+00:22:02.960 --> 00:22:05.840
+thicker tendrils.
+
+254
+00:22:23.534 --> 00:22:27.845
+I'm trying to find an interesting flow to them here.
+
+255
+00:22:27.870 --> 00:22:32.314
+The next thing is the fins on the side.
+
+256
+00:22:32.339 --> 00:22:36.600
+I'll start out with a copy of the tail fin here,
+seemed like a good thing to do.
+
+257
+00:22:59.665 --> 00:23:01.901
+This is the biggest part.
+
+258
+00:23:01.926 --> 00:23:10.000
+While the part that impacts the character the most,
+the fishing lure of the fish,
+
+259
+00:23:10.000 --> 00:23:13.794
+I actually had some problems with this.
+
+260
+00:23:13.819 --> 00:23:18.273
+Here, with curves, it's easy to give them
+
+261
+00:23:18.298 --> 00:23:25.634
+an interesting dynamic shape, but I had to make this works.
+
+262
+00:23:25.659 --> 00:23:28.480
+As said, this is only going
+
+263
+00:23:29.522 --> 00:23:35.309
+to be the base of further sculpting adventures.
+
+264
+00:23:36.193 --> 00:23:38.720
+If it looks rough right now, that's the idea.
+
+265
+00:23:48.653 --> 00:23:52.240
+There's also some finy appendage on the chin.
+
+266
+00:23:52.575 --> 00:23:58.255
+I'm not sure if that's anatomically correct,
+
+267
+00:23:58.280 --> 00:24:00.321
+but it seemed like a cool thing to do.
+
+268
+00:24:16.594 --> 00:24:19.681
+And from the chin fin,
+
+269
+00:24:19.706 --> 00:24:25.243
+I copied the entire object and then I added a Mirror Modifier to it.
+
+270
+00:24:25.268 --> 00:24:25.790
+Because
+
+271
+00:24:33.569 --> 00:24:36.720
+the fins on the Y axis,
+
+272
+00:24:36.720 --> 00:24:39.678
+are directly on the mirror line of this model,
+
+273
+00:24:39.703 --> 00:24:41.480
+they don't need a Mirror Modifier.
+
+274
+00:24:42.598 --> 00:24:45.958
+Whereas the fins on the side, they do.
+
+275
+00:24:46.772 --> 00:24:49.948
+That's why I made a different object,
+
+276
+00:24:51.184 --> 00:24:54.000
+really quick way of just organizing what gets mirrored,
+
+277
+00:24:54.000 --> 00:24:55.833
+and what not.
+
+278
+00:25:29.542 --> 00:25:33.125
+We're starting to get more of an idea
+
+279
+00:25:33.150 --> 00:25:39.123
+of what this creature is going to look like.
+
+280
+00:25:39.148 --> 00:25:45.319
+I thought, let's just add a little bit more of those tendrils.
+
+281
+00:25:45.344 --> 00:25:48.131
+Because later, we can give them
+
+282
+00:25:48.156 --> 00:25:51.421
+a little bit more interest by making them bioluminescent.
+
+283
+00:25:51.446 --> 00:25:56.362
+That way, we can direct the viewers' attention much more.
+
+284
+00:25:56.387 --> 00:25:59.120
+The tendrils
+
+285
+00:25:59.120 --> 00:26:04.000
+originate from the eyes of the fish are our great opportunity
+
+286
+00:26:04.000 --> 00:26:10.423
+to lure the viewers' attention towards the eye of the fish,
+
+287
+00:26:10.448 --> 00:26:13.600
+because there are lines that point directly at it.
+
+288
+00:26:14.975 --> 00:26:17.935
+Lines that point directly at things are very good in artworks,
+
+289
+00:26:17.960 --> 00:26:23.721
+because they help directing the viewers' eye to places
+
+290
+00:26:23.746 --> 00:26:25.470
+where we want them to go.
+
+291
+00:26:29.240 --> 00:26:33.432
+But of course, those tendrils were a nightmare to retopologize.
+
+292
+00:26:59.440 --> 00:27:00.801
+Now back to the lure.
+
+293
+00:27:01.570 --> 00:27:05.200
+I have to realign this thing,
+
+294
+00:27:05.225 --> 00:27:09.925
+because it would curve inwards and not outwards
+
+295
+00:27:09.950 --> 00:27:17.000
+if the fish was swimming ahead
+
+296
+00:27:17.834 --> 00:27:20.203
+at a really fast pace, it would made sense
+
+297
+00:27:20.228 --> 00:27:24.695
+to have this thing trailing off to the sides.
+
+298
+00:27:24.720 --> 00:27:26.519
+But I really wanted to curve it inwards.
+
+299
+00:27:26.544 --> 00:27:29.600
+So later you'll see me realigning that thing.
+
+300
+00:27:30.408 --> 00:27:36.240
+Now, I'm doing the actual skin flaps between the fins,
+
+301
+00:27:37.360 --> 00:27:42.978
+and those are just planes which have a Subsurf Modifier.
+
+302
+00:27:43.003 --> 00:27:50.062
+And then I'm adding a little bit of solidify to those planes.
+
+303
+00:27:50.087 --> 00:27:52.499
+What I'll do later is,
+
+304
+00:27:52.524 --> 00:27:59.175
+I'll join everything together. So the curved fin, the curved tendril,
+
+305
+00:27:59.200 --> 00:28:02.193
+the lure, and all the other objects,
+
+306
+00:28:02.218 --> 00:28:06.014
+are going to be turned into plane mesh objects.
+
+307
+00:28:06.039 --> 00:28:11.002
+I'll join those to the main body and then further sculpt on it
+
+308
+00:28:11.027 --> 00:28:13.658
+using Dynamic Topology. Later,
+
+309
+00:28:13.683 --> 00:28:17.960
+I will do my best retopologizing it.
+
+310
+00:28:19.400 --> 00:28:23.073
+That was the quickest way to block out something really fast.
+
+311
+00:28:42.822 --> 00:28:49.120
+This is the Solidifier with an offset of 0.
+
+312
+00:28:49.120 --> 00:28:53.876
+The mesh sits right in between the solid part.
+
+313
+00:28:53.901 --> 00:29:00.497
+That way, I'm able to position the fins right on the mirror axis.
+
+314
+00:29:02.355 --> 00:29:07.552
+And then the sharp parts are these creases.
+
+315
+00:29:07.577 --> 00:29:10.141
+I'm not worrying about topology at this point,
+
+316
+00:29:10.166 --> 00:29:15.298
+I just try to block everything out,
+
+317
+00:29:15.323 --> 00:29:18.701
+and the creases are really a good way of doing that.
+
+318
+00:29:37.334 --> 00:29:40.611
+And again, making a duplicate to another object.
+
+319
+00:29:40.636 --> 00:29:45.840
+Because for the side fins, we're going to add a Mirror Modifier.
+
+320
+00:30:04.796 --> 00:30:07.336
+I'm not worrying so much about the Retopology
+
+321
+00:30:08.323 --> 00:30:12.461
+of the.....wait,
+
+322
+00:30:13.085 --> 00:30:16.120
+that doesn't make any sense, cut that part out.
+
+323
+00:30:17.437 --> 00:30:23.088
+Here I am positioning the solidified plane inside the fins.
+
+324
+00:30:23.113 --> 00:30:27.696
+I'm using the Volume Snapping, and with this,
+
+325
+00:30:27.721 --> 00:30:33.720
+I can precisely snap the vertices off the fins
+
+326
+00:30:34.805 --> 00:30:36.720
+inside those tendrils here.
+
+327
+00:30:40.000 --> 00:30:42.840
+Of course, it always needs some realignment here.
+
+328
+00:30:43.881 --> 00:30:45.480
+But that looks good.
+
+329
+00:30:48.107 --> 00:30:52.280
+And later, when we join everything and when we smooth everything out,
+
+330
+00:30:52.305 --> 00:30:56.165
+it's going to be one object anyway.
+
+331
+00:30:56.190 --> 00:31:01.070
+So we can smooth out the transition between the tendrils
+
+332
+00:31:01.095 --> 00:31:07.529
+and the skin flaps of the fins.  It's going to seem more like
+
+333
+00:31:07.554 --> 00:31:10.066
+it's made out of one thing.
+
+334
+00:31:10.091 --> 00:31:13.240
+Currently, it's a bit hard to sell that idea.
+
+335
+00:31:40.740 --> 00:31:42.840
+That's the chin fin.
+
+336
+00:31:44.300 --> 00:31:47.497
+I should make up a better word for this kind of stuff.
+
+337
+00:31:53.314 --> 00:31:59.307
+I'm just roughly making the fins a size I want.
+
+338
+00:31:59.332 --> 00:32:04.496
+I just used GG, which is Edge Slide.
+
+339
+00:32:04.521 --> 00:32:07.840
+The top fin looks a bit strange right now.
+
+340
+00:32:09.000 --> 00:32:13.686
+I'm trying to mix it with the body in a better way here.
+
+341
+00:32:13.711 --> 00:32:19.547
+So it will just flow into the head and then into the tail fin.
+
+342
+00:33:35.448 --> 00:33:42.588
+Now that I have more information in detail on my model,
+
+343
+00:33:42.613 --> 00:33:44.270
+I can go back to Sculpting.
+
+344
+00:33:44.295 --> 00:33:48.486
+Later when we join everything, I can give it the final touches.
+
+345
+00:33:48.511 --> 00:33:53.168
+As I said, Sculpting is not going to be the final step.
+
+346
+00:33:53.193 --> 00:33:56.921
+I don't even dare to do detailing at this point.
+
+347
+00:33:56.946 --> 00:33:59.720
+Because when you're detailing in Dynamic Topology,
+
+348
+00:33:59.720 --> 00:34:03.095
+you have to be very super fine detailed.
+
+349
+00:34:03.120 --> 00:34:06.480
+Otherwise, if you're baking a Displacement Map from that,
+
+350
+00:34:06.480 --> 00:34:09.569
+it gets tessellated.
+
+351
+00:34:09.594 --> 00:34:16.117
+So I'm not a huge fan of baking Displacement Maps from Dynamic Topology meshes.
+
+352
+00:34:16.142 --> 00:34:21.646
+That's why I decided to go
+
+353
+00:34:21.671 --> 00:34:24.065
+with Multiresolution in the end.
+
+354
+00:34:25.177 --> 00:34:29.080
+This is the said realignment of the lure.
+
+355
+00:34:32.626 --> 00:34:35.600
+I'm also making it a little bit shorter.
+
+356
+00:34:37.000 --> 00:34:39.840
+Probably in practice in the end,
+
+357
+00:34:40.578 --> 00:34:45.276
+it could be even shorter to make it easier
+
+358
+00:34:45.825 --> 00:34:50.240
+for the final image composition. Because having a lot of
+
+359
+00:34:50.240 --> 00:34:55.744
+these tendrily objects in a frame can make it very busy.
+
+360
+00:34:55.769 --> 00:35:02.756
+In the end, I had a really hard time managing all these lines.
+
+361
+00:35:05.341 --> 00:35:06.360
+The eyes,
+
+362
+00:35:07.121 --> 00:35:10.494
+just a simple sphere. I'm scaling down on one axis
+
+363
+00:35:10.519 --> 00:35:14.960
+and then assigning a Mirror Modifier to it.
+
+364
+00:35:14.960 --> 00:35:16.789
+There's going to be some detailed modeling later.
+
+365
+00:35:16.814 --> 00:35:18.694
+But this is fine for now,
+
+366
+00:35:18.719 --> 00:35:23.080
+to give me more as a sense of the character,
+
+367
+00:35:24.120 --> 00:35:27.240
+also going to help sculpting the eye socket.
+
+368
+00:35:38.770 --> 00:35:42.756
+I'm trying a little bit of eyelids here.
+
+369
+00:35:42.781 --> 00:35:46.985
+But with fish, you really don't want to give them eyelids.
+
+370
+00:35:48.119 --> 00:35:53.676
+Except when you're making an animated film with cute and cuddly fishes.
+
+371
+00:35:53.701 --> 00:35:57.146
+But if you want to make something look scary,
+
+372
+00:35:57.171 --> 00:35:58.361
+you don't give it eyelids.
+
+373
+00:36:22.443 --> 00:36:24.480
+Some troubles with Extrusion.
+
+374
+00:36:56.000 --> 00:36:56.849
+Now,
+
+375
+00:36:56.874 --> 00:37:04.414
+we're pretty far into the overall proportions of this creature.
+
+376
+00:37:04.439 --> 00:37:08.995
+So I'll try to join everything together.
+
+377
+00:37:09.020 --> 00:37:10.891
+I'm happy
+
+378
+00:37:10.916 --> 00:37:15.240
+with the overall ratio of fins versus body, the face,
+
+379
+00:37:16.111 --> 00:37:19.120
+looks fine to me. I mean I could go on forever with this,
+
+380
+00:37:19.120 --> 00:37:21.603
+but there was also a limited time frame.
+
+381
+00:37:22.091 --> 00:37:27.012
+Now I need to convert all the curves to meshes first.
+
+382
+00:37:27.037 --> 00:37:33.029
+Then I have to apply the Modifiers of those skin flaps for the fins.
+
+383
+00:37:33.709 --> 00:37:35.830
+In order for that to happen,
+
+384
+00:37:35.878 --> 00:37:41.270
+I need to organize myself a little bit better, and name things,
+
+385
+00:37:42.676 --> 00:37:46.096
+and move everything to the proper collection.
+
+386
+00:37:46.121 --> 00:37:50.985
+I use the Boo Tool Addon to Boolean things together, which is super handy.
+
+387
+00:37:51.010 --> 00:37:53.796
+It's one of the default Addons.
+
+388
+00:37:53.821 --> 00:37:56.990
+It's not enabled by default, but you can enable it,
+
+389
+00:37:57.015 --> 00:38:01.080
+and it makes Booleaning things together, really quickly,
+
+390
+00:38:02.000 --> 00:38:02.960
+much faster.
+
+391
+00:38:04.546 --> 00:38:07.604
+So I've joined the fins together and here
+
+392
+00:38:07.629 --> 00:38:11.771
+I'm testing out if it's possible to do what I want with this.
+
+393
+00:38:11.796 --> 00:38:13.080
+I had no clue.
+
+394
+00:38:13.903 --> 00:38:18.329
+So I smooth out the transitions between the skin,
+
+395
+00:38:19.975 --> 00:38:24.195
+the body, and the skin of the fins.
+
+396
+00:38:24.220 --> 00:38:29.120
+That helps thickening out the basis of the fins a little bit,
+
+397
+00:38:29.120 --> 00:38:32.840
+before I add more of those tendrils to it.
+
+398
+00:38:34.946 --> 00:38:40.120
+Right now, this is pure exploration
+
+399
+00:38:40.120 --> 00:38:43.000
+to see if I can do what I want to do with this.
+
+400
+00:39:04.293 --> 00:39:08.240
+Still just smoothing out, and next,
+
+401
+00:39:09.360 --> 00:39:13.160
+I'm adding the tendrils, the curves,
+
+402
+00:39:13.185 --> 00:39:20.643
+and converting all the curves into Mesh Objects,
+
+403
+00:39:20.668 --> 00:39:22.240
+seems like a good thing to do.
+
+404
+00:39:23.239 --> 00:39:26.785
+The reason why I use curved for modeling and not straight meshes
+
+405
+00:39:26.810 --> 00:39:29.013
+is because
+
+406
+00:39:29.038 --> 00:39:34.960
+you can vary the detail level as you're working on it more easily.
+
+407
+00:39:34.985 --> 00:39:39.009
+Sometimes, of course, curves give you more problems,
+
+408
+00:39:39.034 --> 00:39:42.510
+especially on the ends, because they're not joined together.
+
+409
+00:39:42.535 --> 00:39:44.768
+So I just select
+
+410
+00:39:44.793 --> 00:39:50.641
+all the open edges here, and I'm joining everything together.
+
+411
+00:39:50.666 --> 00:39:53.963
+I have to be super careful at the ends
+
+412
+00:39:54.711 --> 00:39:58.709
+to make sure the tips are all joined together.
+
+413
+00:39:58.734 --> 00:40:01.216
+Because by default, Blender doesn't do that.
+
+414
+00:40:01.241 --> 00:40:06.386
+Even if you're shrinking down a curve to 0, it doesn't join something together.
+
+415
+00:40:06.411 --> 00:40:10.509
+You have to do that manually at the end,
+
+416
+00:40:10.545 --> 00:40:12.091
+that's what I'm doing here.
+
+417
+00:40:13.120 --> 00:40:16.905
+Of course, there's also a little bit of a shortcut to it.
+
+418
+00:40:16.940 --> 00:40:19.250
+But I'll do that in the second run here.
+
+419
+00:40:21.404 --> 00:40:26.308
+I also have to say I'm sorry that I customized my Merge menu.
+
+420
+00:40:26.333 --> 00:40:28.736
+I actually turned it into a Pie Menu,
+
+421
+00:40:28.772 --> 00:40:30.479
+which is just quickly,
+
+422
+00:40:32.048 --> 00:40:35.980
+I just wrote myself an Addon, that's not a big deal.
+
+423
+00:40:36.005 --> 00:40:38.497
+But I like it much better
+
+424
+00:40:38.522 --> 00:40:42.000
+because you can flick into a certain direction
+
+425
+00:40:42.920 --> 00:40:45.840
+and emerge that way more intuitively.
+
+426
+00:40:46.949 --> 00:40:50.080
+I did another tech check for
+
+427
+00:40:50.636 --> 00:40:52.851
+Manifold Edges and Vertices,
+
+428
+00:40:53.977 --> 00:40:55.817
+just to see if I missed anything.
+
+429
+00:40:57.000 --> 00:40:59.545
+Now the faster way to do this is,
+
+430
+00:41:00.724 --> 00:41:06.686
+here, I'm turning the other tendrils into meshes.
+
+431
+00:41:06.711 --> 00:41:12.176
+The faster way to do that is search for Manifolds right from the start,
+
+432
+00:41:12.201 --> 00:41:14.000
+because then Blender will select them.
+
+433
+00:41:14.000 --> 00:41:17.609
+That's why I'm doing here.
+
+434
+00:41:17.634 --> 00:41:21.318
+I'm searching for Selecting Non Manifolds, and then I press F.
+
+435
+00:41:21.360 --> 00:41:28.119
+Pressing F will just make faces, they're not really nice faces,
+
+436
+00:41:28.144 --> 00:41:29.815
+they are Ngons.
+
+437
+00:41:31.334 --> 00:41:35.577
+That doesn't really matter for the Boolean process.
+
+438
+00:41:37.282 --> 00:41:38.832
+That way,
+
+439
+00:41:43.000 --> 00:41:46.339
+the tips and the bases of those tendrils are joined together.
+
+440
+00:41:46.364 --> 00:41:49.526
+Then in the end, I did a Merge by Distance
+
+441
+00:41:49.551 --> 00:41:54.971
+which will finally fuse the tips together. Just to be sure.
+
+442
+00:41:54.996 --> 00:42:00.335
+It helps to do something twice,
+
+443
+00:42:00.360 --> 00:42:02.720
+so just check if they actually happened.
+
+444
+00:42:07.120 --> 00:42:08.360
+Joining everything together.
+
+445
+00:42:13.325 --> 00:42:17.240
+Just using Boolean Union and I'm actually joining everything together,
+
+446
+00:42:17.240 --> 00:42:20.233
+I'm not creating Boolean Modifiers.
+
+447
+00:42:20.258 --> 00:42:23.080
+I'm stupidly and flatly bashing
+
+448
+00:42:23.747 --> 00:42:26.120
+all the stuff together right now.
+
+449
+00:42:30.128 --> 00:42:34.056
+Again, filling holes, making everything manifold,
+
+450
+00:42:34.081 --> 00:42:37.240
+and then joining everything together.
+
+451
+00:42:38.162 --> 00:42:42.215
+Now, more fun, more sculpting fun can happen,
+
+452
+00:42:42.240 --> 00:42:44.840
+because now I have a continuous mesh and I can make sure that
+
+453
+00:42:44.840 --> 00:42:49.080
+the tendrils fuse into the body in a nicer way.
+
+454
+00:42:50.333 --> 00:42:51.240
+And of course,
+
+455
+00:42:52.147 --> 00:42:55.697
+I was probably getting carried away too quickly,
+
+456
+00:42:55.722 --> 00:43:00.808
+and I didn't pay attention to the Subdivision Level here,
+
+457
+00:43:00.833 --> 00:43:05.472
+because those created quite a lot of artifacts on the curves,
+
+458
+00:43:05.497 --> 00:43:07.676
+or the tendrils, as I call them.
+
+459
+00:43:09.098 --> 00:43:11.305
+For the next project, I'll just keep that in mind.
+
+460
+00:43:20.353 --> 00:43:23.427
+I'm super quickly smoothing out things.
+
+461
+00:43:23.452 --> 00:43:28.410
+I'm using the Blob Brush to add more volumes
+
+462
+00:43:28.435 --> 00:43:35.360
+to those tendrils and those lures to make it more organic.
+
+463
+00:43:37.561 --> 00:43:39.960
+These are some of the artifacts I talked about.
+
+464
+00:44:00.463 --> 00:44:04.035
+Now, it's really just about making
+
+465
+00:44:04.060 --> 00:44:09.840
+the skin flaps of the fins feel a little bit more real,
+
+466
+00:44:10.759 --> 00:44:11.480
+and
+
+467
+00:44:12.323 --> 00:44:16.120
+less of straight lines.
+
+468
+00:44:17.095 --> 00:44:20.740
+Again, another artifact. But those are going to go away
+
+469
+00:44:20.776 --> 00:44:22.491
+once I do Retopology.
+
+470
+00:44:33.741 --> 00:44:37.480
+While I'm sculpting, I found that it's a good practice
+
+471
+00:44:37.480 --> 00:44:41.000
+to switch Mattcap every once in a while, to get a fresh eye on things.
+
+472
+00:44:41.000 --> 00:44:44.360
+That's what I'm doing here. Sometimes a Mattcap
+
+473
+00:44:44.360 --> 00:44:46.290
+can give you interesting surface detail,
+
+474
+00:44:46.315 --> 00:44:50.240
+that's more inspiring for you to work with.
+
+475
+00:44:51.360 --> 00:44:54.815
+Which is a good thing because on a project like this,
+
+476
+00:44:54.840 --> 00:44:57.720
+you work on it for a long time,
+
+477
+00:44:57.720 --> 00:45:00.600
+keep yourself inspired is very important.
+
+478
+00:45:00.625 --> 00:45:05.675
+Especially if you're not working with a team. If you have colleagues,
+
+479
+00:45:05.700 --> 00:45:08.124
+or friends whom you can show the stuff,
+
+480
+00:45:08.149 --> 00:45:10.927
+don't hesitate to do that.
+
+481
+00:45:10.952 --> 00:45:14.847
+I got a lot of great help from people just dropping by my desk
+
+482
+00:45:14.872 --> 00:45:19.512
+and giving me notes about this. Especially for the final image composition,
+
+483
+00:45:19.537 --> 00:45:23.360
+I learned a lot of stuff, and I'm really happy that
+
+484
+00:45:23.360 --> 00:45:29.001
+I know work with people who you can just poke every day,
+
+485
+00:45:29.026 --> 00:45:32.406
+and in the end, your artwork is going to look better.
+
+486
+00:45:40.659 --> 00:45:47.376
+So the final run of merging the eyebrow tendrils,
+
+487
+00:45:47.569 --> 00:45:54.264
+would called them eyelashes, into the body. Those were a bit tricky,
+
+488
+00:45:54.289 --> 00:46:00.158
+because I reposition them in the Sculpting process.
+
+489
+00:46:00.918 --> 00:46:05.335
+That way I had some problems retopologizing them.
+
+490
+00:46:05.360 --> 00:46:10.531
+So I had to join the curves back
+
+491
+00:46:10.556 --> 00:46:15.080
+to my retopologized mesh later on. Well, I'll mention that again
+
+492
+00:46:15.080 --> 00:46:16.120
+when I get to it.
+
+493
+00:46:30.803 --> 00:46:35.815
+This is almost the end. I'm doing some wrinkles here,
+
+494
+00:46:35.840 --> 00:46:39.785
+but that's really details which we're going to add in later.
+
+495
+00:46:39.810 --> 00:46:43.651
+Right now, we have the overall shapes in there,
+
+496
+00:46:43.676 --> 00:46:49.025
+the overall lines that the topology has to follow.
+
+497
+00:46:50.249 --> 00:46:53.447
+Then we can just dive into Retopology right away,
+
+498
+00:46:53.472 --> 00:46:58.289
+and later, have more time for Sculpting details
+
+499
+00:46:58.325 --> 00:47:01.131
+and adding a little bit more interest.
+

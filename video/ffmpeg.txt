@@ -1,0 +1,37 @@
+1. Convert oceansvideo.m3u8
+ffmpeg -i cat.mp4 -codec copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls -hls_key_info_file key.keyinfo ./video/cat.m3u8
+
+2. Convert soundtrack hk.m3u8
+ffmpeg -i cn.wav -c:a aac -b:a 64k -vn -hls_list_size 0 -hls_key_info_file key.keyinfo ./cn/cn.m3u8
+
+3. Convert into master.m3u8
+
+
+
+[less word]
+-hide_banner
+
+
+[add key, make ts not traceable]
+-hls_key_info_file key.keyinfo
+
+
+[fastest m3u8]
+ffmpeg -i oceans.mp4 -codec copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls oceansvideo.m3u8
+
+
+[multi audio track] not for html video player, html5 only eat m3u8
+ffmpeg -i test1.mp4 -i hk.wav -i tw.wav -i cn.wav -map 0 -map 1:a -map 2:a -map 3:a -metadata:s:a:0 language=eng -metadata:s:a:1 language=cht -metadata:s:a:2 language=twi -metadata:s:a:3 lanuage=chs -disposition:a:0 default -c:v copy -shortest output.mp4
+
+
+ffmpeg -i oceans.mp4 -i 1.mp3 -map 0 -map 1:a -metadata:s:a:0 language=eng -metadata:s:a:1 language=cht -metadata:s:a:1 handler_name=Others -disposition:a:0 default -codec copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls oceans2.m3u8
+
+ffmpeg -i oceans.mp4 -i hk.wav -i tw.wav -i cn.wav -map 0 -map 1:a -map 2:a -map 3:a -metadata:s:a:0 language=eng -metadata:s:a:1 language=cht -metadata:s:a:2 language=twi -metadata:s:a:3 lanuage=chs -disposition:a:0 default -c:v copy -shortest oceans2.m3u8
+
+
+[sound]
+ffmpeg -i cn.wav -c:a aac -b:a 64k -vn -hls_list_size 0 -hls_key_info_file key.keyinfo ./cn/cn.m3u8
+
+
+https://github.com/videojs/video.js/issues/5607
+https://github.com/videojs/videojs-contrib-hls/blob/master/docs/multiple-alternative-audio-tracks.md

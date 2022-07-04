@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Video Player</title>
+    <link rel="shortcut icon" href="img/player.png" type="image/png">
+    <link rel="stylesheet" href="videoPlayer.css">
+    <!-- VideoJS and plugin-->
+    <link rel="stylesheet" href="https://vjs.zencdn.net/7.18.1/video-js.css">
+    <link rel="stylesheet" href="./videojs-playlist-ui.css">
+    <link rel="stylesheet" href="./videojs-playlist-ui.vertical.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+ 
+    <div class="row p-0">
+        <div class="player-grid col-lg-10 col-sm-12 pe-2">
+            <video 
+                id="videoPlayer"
+                class="video-js vjs-big-play-centered vjs-show-big-play-button-on-pause"
+                data-setup="{}">
+        
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        
+        </div>
+
+        <div class="playlist-grid col-lg-2 col-sm-12 p-0 me-0">
+            <div 
+                class="vjs-playlist"
+                data-for="videoPlayer">
+            </div>
+        </div>
+    </div>   
+
+<!-- VideoJS and plugin -->
+<script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+<script src="//cdn.sc.gl/videojs-hotkeys/latest/videojs.hotkeys.min.js"></script>
+<script src="./videojs-playlist-ui.js"></script>
+<script src="./videojs-playlist.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script type="module" src="videoPlayer.js"></script>
+<script type="module" src="srt-to-vtt.js"></script>
+
+</body>
+</html>
