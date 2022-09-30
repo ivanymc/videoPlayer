@@ -1,11 +1,14 @@
 1. Convert oceansvideo.m3u8
-ffmpeg -i cat.mp4 -codec copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls -hls_key_info_file key.keyinfo ./video/cat.m3u8
+ffmpeg -i 02 Initial blocking and sculpt-1080p.mp4 -codec copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls -hls_key_info_file key.keyinfo ./video/test.m3u8
 
 2. Convert soundtrack hk.m3u8
-ffmpeg -i cn.wav -c:a aac -b:a 64k -vn -hls_list_size 0 -hls_key_info_file key.keyinfo ./cn/cn.m3u8
+ffmpeg -i hk.wav -c:a aac -b:a 64k -vn -hls_list_size 0 -hls_key_info_file key.keyinfo ./sound/hk/hk.m3u8
 
 3. Convert into master.m3u8
 
+
+
+https://github.com/videojs/http-streaming/blob/main/docs/multiple-alternative-audio-tracks.md
 
 
 [less word]

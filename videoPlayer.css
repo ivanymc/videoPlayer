@@ -1,5 +1,6 @@
 body {
     width: 99vw !important;
+    overflow-x: hidden;
 }
 
 html, video, .player-grid, .playlist-grid {
